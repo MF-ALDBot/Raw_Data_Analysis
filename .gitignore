@@ -1,0 +1,4 @@
+*.pyc
+Data/**/*.h5
+Data/**/*.txt
+Data/**/*.png

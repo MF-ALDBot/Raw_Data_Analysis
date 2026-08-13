@@ -1,0 +1,9 @@
+short_name: 250730_TDMAT_campaign0009
+date: 2025-05-30
+campaign_run_jsons:
+  - "Data/250730_TDMAT_Campaign0009/0t49dprjynzhz000esnegj1jk8_aldbot_campaign_output.json" # random 5
+  - "Data/250730_TDMAT_Campaign0009/0t49fgtahnrvv000294qhkf8jm_aldbot_campaign_output.json" # 95 GP runs
+
+description: "TiO2 campaign 0009 TDMAT 75C, exploring 4 timing params"
+#campaign_run_trim:
+  #0t1aq0yjr9sfn000hfgs0vvhqg: [0,95]

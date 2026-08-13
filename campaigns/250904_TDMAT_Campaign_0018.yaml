@@ -1,0 +1,9 @@
+short_name: 250904_TDMAT_campaign0018
+date: 2025-09-04
+campaign_run_jsons:
+  - "Data/250904_TDMAT_Campaign0018/0t5t37dhzxrwf0003v982kgb8r_aldbot_campaign_output.json" # random 35
+  
+
+description: "TiO2 campaign 00189 TDMAT 75C, 12 parameters, TSub is 150C, 100 RNG runs"
+#campaign_run_trim:
+  #0t1aq0yjr9sfn000hfgs0vvhqg: [0,95]

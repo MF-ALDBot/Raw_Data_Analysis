@@ -1,0 +1,10 @@
+short_name: 250812_TDMAT_campaign0012
+date: 2025-08-15
+campaign_run_jsons:
+  - "Data/250812_TDMAT_Campaign0012/0t4vmnc8dxs5d000b1m8qq27k8_aldbot_campaign_output.json" # random 10
+  - "Data/250812_TDMAT_Campaign0012/0t4vqs613hzwx000c4eqn02kwm_aldbot_campaign_output.json" # 70 GP runs
+  - "Data/250812_TDMAT_Campaign0012/0t4x5q9khsssx000604vsbw908_aldbot_campaign_output.json" # 20 GP runs
+
+description: "TiO2 campaign 0012 TDMAT 75C, rep of Campaign0010"
+#campaign_run_trim:
+  #0t1aq0yjr9sfn000hfgs0vvhqg: [0,95]

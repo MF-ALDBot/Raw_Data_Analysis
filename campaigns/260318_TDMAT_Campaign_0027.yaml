@@ -1,0 +1,9 @@
+short_name: 260318_TDMAT_campaign0027
+date: 2026-03-18
+campaign_run_jsons:
+  - "Data/260318_TDMAT_Campaign0027/0tdsxswy51t3x000g5286egb3g_aldbot_campaign_output.json" # 100 rng runs
+  - "Data/260318_TDMAT_Campaign0027/0tdz7kh2xswb9000yz10vxyjdr_aldbot_campaign_output.json" # 100 rng runs, new wafer
+
+description: "TiO2 campaign 0027 TDMAT 75C, TSub is 150C, 200 runs with random parameters - on two separate wafers"
+#campaign_run_trim:
+#  0t5t37dhzxrwf0003v982kgb8r: [0,15]

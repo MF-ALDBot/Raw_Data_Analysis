@@ -1,0 +1,407 @@
+{
+  "config": {
+    "num_runs": 5,
+    "prior_datasets_dir": "C:\\Users\\lab\\Documents\\ALDbot Data\\250812_TDMAT_Campaign0012",
+    "params": {
+      "process_pressure": 10,
+      "precursor_dose_time": 1000,
+      "ald_valves_delay": 10,
+      "precursor_purge_time": 2000,
+      "H2_plasma_flow_rate": 75,
+      "Ar_process_flow_rate": 50,
+      "ALD_purge_flow_rate": 5,
+      "ALD_prep_time": 2000,
+      "ALD_purge_time": 2000,
+      "plasma_pressure": 60,
+      "N2_plasma_flow_rate": 0,
+      "Ar_plasma_flow_rate": 0,
+      "ALD_purge_plasma_flow_rate": 0,
+      "RF_power_setpoint": 100,
+      "plasma_duration": 2000,
+      "LC_preset": 50,
+      "TC_preset": 30,
+      "plasma_prep_time": 3000,
+      "plasma_purge_time": 500,
+      "Number_of_ALD_cycles": 25
+    },
+    "exploration_params": [
+      "plasma_duration",
+      "precursor_dose_time",
+      "plasma_purge_time",
+      "ALD_purge_time"
+    ],
+    "pre_processor": "ald_data_processing:process_ald",
+    "optimizer": "models.random_exploration:random_exploration",
+    "gp_model": "x:x",
+    "modeled_params": [
+      "plasma_duration",
+      "precursor_dose_time",
+      "plasma_purge_time",
+      "ALD_purge_time"
+    ],
+    "model_output_param": "dep_rate_mean",
+    "output_deviation_variable": "dep_rate_deviation",
+    "param_limits": {
+      "plasma_duration": [
+        100,
+        10000
+      ],
+      "precursor_dose_time": [
+        100,
+        10000
+      ],
+      "plasma_purge_time": [
+        10,
+        20000
+      ],
+      "ALD_purge_time": [
+        10,
+        10000
+      ]
+    },
+    "num_RMSE_trials": 1
+  },
+  "runs": {
+    "ALD_prep_time": {
+      "0": 2000,
+      "1": 2000,
+      "2": 2000,
+      "3": 2000,
+      "4": 2000
+    },
+    "ALD_purge_flow_rate": {
+      "0": 5,
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5
+    },
+    "ALD_purge_plasma_flow_rate": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    "ALD_purge_time": {
+      "0": 9062,
+      "1": 7725,
+      "2": 2171,
+      "3": 7316,
+      "4": 6907
+    },
+    "Ar_plasma_flow_rate": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    "Ar_process_flow_rate": {
+      "0": 50,
+      "1": 50,
+      "2": 50,
+      "3": 50,
+      "4": 50
+    },
+    "H2_plasma_flow_rate": {
+      "0": 75,
+      "1": 75,
+      "2": 75,
+      "3": 75,
+      "4": 75
+    },
+    "LC_preset": {
+      "0": 50,
+      "1": 50,
+      "2": 50,
+      "3": 50,
+      "4": 50
+    },
+    "N2_plasma_flow_rate": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    "Number_of_ALD_cycles": {
+      "0": 25,
+      "1": 25,
+      "2": 25,
+      "3": 25,
+      "4": 25
+    },
+    "RF_power_setpoint": {
+      "0": 100,
+      "1": 100,
+      "2": 100,
+      "3": 100,
+      "4": 100
+    },
+    "Sample_name": {
+      "0": "250812_TDMAT_Campaign0012_01_RNG",
+      "1": "250812_TDMAT_Campaign0012_01_RNG",
+      "2": "250812_TDMAT_Campaign0012_01_RNG",
+      "3": "250812_TDMAT_Campaign0012_01_RNG",
+      "4": "250812_TDMAT_Campaign0012_01_RNG"
+    },
+    "TC_preset": {
+      "0": 30,
+      "1": 30,
+      "2": 30,
+      "3": 30,
+      "4": 30
+    },
+    "activation": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true
+    },
+    "ald_valves_delay": {
+      "0": 10,
+      "1": 10,
+      "2": 10,
+      "3": 10,
+      "4": 10
+    },
+    "plasma_duration": {
+      "0": 4045,
+      "1": 2076,
+      "2": 1631,
+      "3": 6592,
+      "4": 7481
+    },
+    "plasma_prep_time": {
+      "0": 3000,
+      "1": 3000,
+      "2": 3000,
+      "3": 3000,
+      "4": 3000
+    },
+    "plasma_pressure": {
+      "0": 60,
+      "1": 60,
+      "2": 60,
+      "3": 60,
+      "4": 60
+    },
+    "plasma_purge_time": {
+      "0": 7528,
+      "1": 17589,
+      "2": 5626,
+      "3": 13427,
+      "4": 11010
+    },
+    "precursor_dose_time": {
+      "0": 5311,
+      "1": 7525,
+      "2": 1607,
+      "3": 8764,
+      "4": 6716
+    },
+    "precursor_purge_time": {
+      "0": 9062,
+      "1": 7725,
+      "2": 2171,
+      "3": 7316,
+      "4": 6907
+    },
+    "process_pressure": {
+      "0": 10,
+      "1": 10,
+      "2": 10,
+      "3": 10,
+      "4": 10
+    },
+    "profile": {
+      "0": false,
+      "1": false,
+      "2": false,
+      "3": false,
+      "4": false
+    },
+    "progress": {
+      "0": 50.0,
+      "1": 50.0,
+      "2": 50.0,
+      "3": 50.0,
+      "4": 50.0
+    },
+    "run_description": {
+      "0": "Repetition of Campaign0010",
+      "1": "Repetition of Campaign0010",
+      "2": "Repetition of Campaign0010",
+      "3": "Repetition of Campaign0010",
+      "4": "Repetition of Campaign0010"
+    },
+    "run_id": {
+      "0": "0t4vmnc911t6s0008z992t0swr",
+      "1": "0t4vn5z6hnvad000jfhvb043cm",
+      "2": "0t4vnsh6yhtj3000h82665mvjr",
+      "3": "0t4vp1kbjhzzd00002hwg9gd68",
+      "4": "0t4vpnf7ghy3s0001nmmvmhzvg"
+    },
+    "run_state": {
+      "0": "run_thread_run",
+      "1": "run_thread_run",
+      "2": "run_thread_run",
+      "3": "run_thread_run",
+      "4": "run_thread_run"
+    },
+    "sample": {
+      "0": "0t4khqeqm9y8q0001x1dpttk2g",
+      "1": "0t4khqeqm9y8q0001x1dpttk2g",
+      "2": "0t4khqeqm9y8q0001x1dpttk2g",
+      "3": "0t4khqeqm9y8q0001x1dpttk2g",
+      "4": "0t4khqeqm9y8q0001x1dpttk2g"
+    },
+    "Initial_thickness": {
+      "0": 77.039,
+      "1": 79.947,
+      "2": 82.978,
+      "3": 85.29,
+      "4": 89.149
+    },
+    "Temperature": {
+      "0": 150,
+      "1": 150,
+      "2": 150,
+      "3": 150,
+      "4": 150
+    },
+    "dep_rate_fit": {
+      "0": 0.11384750000000021,
+      "1": 0.13033964285714297,
+      "2": 0.0889964285714284,
+      "3": 0.1570246428571434,
+      "4": 0.16465392857142824
+    },
+    "dep_rate_mean": {
+      "0": 0.11417142857142945,
+      "1": 0.13012857142857218,
+      "2": 0.0892000000000002,
+      "3": 0.15824285714285732,
+      "4": 0.16570000000000004
+    },
+    "dep_rate_direct": {
+      "0": 0.11692000000000008,
+      "1": 0.12183999999999968,
+      "2": 0.09364000000000033,
+      "3": 0.15555999999999984,
+      "4": 0.16879999999999995
+    },
+    "dep_rate_deviation": {
+      "0": 0.0027985783562953655,
+      "1": 0.018735277212920464,
+      "2": 0.01151626179427473,
+      "3": 0.025007819185370244,
+      "4": 0.019680882674748438
+    },
+    "fit_diff_variation": {
+      "0": 0.5653323997805141,
+      "1": 0.7704678933316941,
+      "2": 3.0395966180013345,
+      "3": 4.45170500786269,
+      "4": 2.955133164499164
+    },
+    "is_prior": {
+      "0": false,
+      "1": false,
+      "2": false,
+      "3": false,
+      "4": false
+    },
+    "from_recommendation_id": {
+      "0": "0t4vmnc8f9rrs000ffh0bq4b7w",
+      "1": "0t4vn5z66xx0q0004e9v8g7trw",
+      "2": "0t4vnsh6gxwjx000gcgt31n908",
+      "3": "0t4vp1kb7ht5q000vy2wcd9rrr",
+      "4": "0t4vpnf72ntw70003rwkf0m2ar"
+    }
+  },
+  "optimizer": [
+    {
+      "recommendation_id": "0t4vmnc8f9rrs000ffh0bq4b7w",
+      "elapsed_time": 5.659996531903744e-05,
+      "new_points": [
+        [
+          4045.77284900777,
+          5311.379522754783,
+          7528.955265800144,
+          9062.0590489092
+        ]
+      ],
+      "new_predicted_output": null,
+      "new_predicted_uncertainty": null,
+      "current_trained_hps": null,
+      "average_rmse": null
+    },
+    {
+      "recommendation_id": "0t4vn5z66xx0q0004e9v8g7trw",
+      "elapsed_time": 3.260001540184021e-05,
+      "new_points": [
+        [
+          2076.9756673852667,
+          7525.990821322083,
+          17589.267562090376,
+          7725.208310590348
+        ]
+      ],
+      "new_predicted_output": null,
+      "new_predicted_uncertainty": null,
+      "current_trained_hps": null,
+      "average_rmse": null
+    },
+    {
+      "recommendation_id": "0t4vnsh6gxwjx000gcgt31n908",
+      "elapsed_time": 5.099998088553548e-05,
+      "new_points": [
+        [
+          1631.7086347897434,
+          1607.7093240643144,
+          5626.632341708995,
+          2171.5084428407026
+        ]
+      ],
+      "new_predicted_output": null,
+      "new_predicted_uncertainty": null,
+      "current_trained_hps": null,
+      "average_rmse": null
+    },
+    {
+      "recommendation_id": "0t4vp1kb7ht5q000vy2wcd9rrr",
+      "elapsed_time": 2.559996210038662e-05,
+      "new_points": [
+        [
+          6592.1437231856335,
+          8764.47505769521,
+          13427.631282634144,
+          7316.741411672563
+        ]
+      ],
+      "new_predicted_output": null,
+      "new_predicted_uncertainty": null,
+      "current_trained_hps": null,
+      "average_rmse": null
+    },
+    {
+      "recommendation_id": "0t4vpnf72ntw70003rwkf0m2ar",
+      "elapsed_time": 4.560005618259311e-05,
+      "new_points": [
+        [
+          7481.212524337459,
+          6716.049492789284,
+          11010.23879019087,
+          6907.014695739393
+        ]
+      ],
+      "new_predicted_output": null,
+      "new_predicted_uncertainty": null,
+      "current_trained_hps": null,
+      "average_rmse": null
+    }
+  ]
+}
