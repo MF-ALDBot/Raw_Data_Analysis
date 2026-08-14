@@ -34,6 +34,8 @@ Raw_Data_Analysis/
 │   ├── precursor_dose_time_sweep.json   # Validation sweep: p₄ (Fig. 3b)
 │   ├── process_pressure_sweep.json      # Validation sweep: p₂ (Fig. 3c)
 │   └── plasma_purge_time_sweep.json     # Validation sweep: p₁₂ (Fig. 3d)
+├── RMSE_heldout_sets_4d.json        # Pooled held-out test sets for 4D RMSE comparison
+├── RMSE_heldout_sets_12d.json       # Pooled held-out test sets for 12D RMSE comparison
 └── pyproject.toml                   # Python dependencies
 ```
 
