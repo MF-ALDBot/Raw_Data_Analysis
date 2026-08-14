@@ -58,11 +58,11 @@ configs:
     - 6000
   num_RMSE_trials: 1
 runs:
-- run_id: 0t5d7ft7adrg9000kn4gjvzvwg
+- run_id: 0t49dprknhsak000c3k693h2qg
   ALD_prep_time: 2000
   ALD_purge_flow_rate: 5
   ALD_purge_plasma_flow_rate: 0
-  ALD_purge_time: 5095
+  ALD_purge_time: 4914
   Ar_plasma_flow_rate: 0
   Ar_process_flow_rate: 50
   H2_plasma_flow_rate: 75
@@ -70,31 +70,31 @@ runs:
   N2_plasma_flow_rate: 0
   Number_of_ALD_cycles: 25
   RF_power_setpoint: 100
-  Sample_name: 250825_TDMAT_Campaign0015_01_RNG
+  Sample_name: TDMAT_Campaign0009_01_RNG
   TC_preset: 30
   ald_valves_delay: 10
   plasma_duration: 2000
-  plasma_prep_time: 2317
+  plasma_prep_time: 1771
   plasma_pressure: 60
-  plasma_purge_time: 5825
-  precursor_dose_time: 3109
-  precursor_purge_time: 5095
+  plasma_purge_time: 498
+  precursor_dose_time: 255
+  precursor_purge_time: 4914
   process_pressure: 10
-  Initial_thickness: 0.48597
+  Initial_thickness: 0.48154
   Temperature: 150
-  dep_rate_fit: 0.12586964285714283
+  dep_rate_fit: 0.05211642857142857
   dep_rate_mean: 0.12587142857142855
-  dep_rate_direct: 0.1613132
-  dep_rate_deviation: 0.0045765596204117975
-  fit_diff_variation: 3.342570674547048
+  dep_rate_direct: 0.1392544
+  dep_rate_deviation: 0.011
+  fit_diff_variation: 3.3839056636474374
   is_prior: false
-  from_recommendation_id: 0t5d7ft6kdwkn0007xvbex60j8
-  campaign_id: 0t5d7ft6jswc9000bsbx5dk6pg
-- run_id: 0t5d7tpw11x57000dn64n9qvtc
+  from_recommendation_id: 0t49dprjz9tbb000ssqa8azzhg
+  campaign_id: 0t49dprjynzhz000esnegj1jk8
+- run_id: 0t49dy39mny8k000ng6241k8mw
   ALD_prep_time: 2000
   ALD_purge_flow_rate: 5
   ALD_purge_plasma_flow_rate: 0
-  ALD_purge_time: 2460
+  ALD_purge_time: 4201
   Ar_plasma_flow_rate: 0
   Ar_process_flow_rate: 50
   H2_plasma_flow_rate: 75
@@ -102,31 +102,31 @@ runs:
   N2_plasma_flow_rate: 0
   Number_of_ALD_cycles: 25
   RF_power_setpoint: 100
-  Sample_name: 250825_TDMAT_Campaign0015_01_RNG
+  Sample_name: TDMAT_Campaign0009_01_RNG
   TC_preset: 30
   ald_valves_delay: 10
   plasma_duration: 2000
-  plasma_prep_time: 1681
+  plasma_prep_time: 2805
   plasma_pressure: 60
-  plasma_purge_time: 4357
-  precursor_dose_time: 2105
-  precursor_purge_time: 2460
+  plasma_purge_time: 748
+  precursor_dose_time: 2257
+  precursor_purge_time: 4201
   process_pressure: 10
-  Initial_thickness: 4.5195
+  Initial_thickness: 4.015
   Temperature: 150
-  dep_rate_fit: 0.08964107142857143
+  dep_rate_fit: 0.1334417857142857
   dep_rate_mean: 0.08969285714285714
-  dep_rate_direct: 0.09076800000000002
-  dep_rate_deviation: 0.0019973068602189173
-  fit_diff_variation: 3.71678357514921
+  dep_rate_direct: 0.13609200000000002
+  dep_rate_deviation: 0.011
+  fit_diff_variation: 6.420533948519905
   is_prior: false
-  from_recommendation_id: 0t5d7tpvc9zp3000mvv7vsjg0w
-  campaign_id: 0t5d7ft6jswc9000bsbx5dk6pg
-- run_id: 0t5d82ar5xwg30005hmtekj338
+  from_recommendation_id: 0t49dy3989vjz00075v27g1er8
+  campaign_id: 0t49dprjynzhz000esnegj1jk8
+- run_id: 0t49e65mbdz3v000n2g27rnp10
   ALD_prep_time: 2000
   ALD_purge_flow_rate: 5
   ALD_purge_plasma_flow_rate: 0
-  ALD_purge_time: 4948
+  ALD_purge_time: 1488
   Ar_plasma_flow_rate: 0
   Ar_process_flow_rate: 50
   H2_plasma_flow_rate: 75
@@ -134,31 +134,31 @@ runs:
   N2_plasma_flow_rate: 0
   Number_of_ALD_cycles: 25
   RF_power_setpoint: 100
-  Sample_name: 250825_TDMAT_Campaign0015_01_RNG
+  Sample_name: TDMAT_Campaign0009_01_RNG
   TC_preset: 30
   ald_valves_delay: 10
   plasma_duration: 2000
-  plasma_prep_time: 3440
+  plasma_prep_time: 3507
   plasma_pressure: 60
-  plasma_purge_time: 2192
-  precursor_dose_time: 4716
-  precursor_purge_time: 4948
+  plasma_purge_time: 3438
+  precursor_dose_time: 1171
+  precursor_purge_time: 1488
   process_pressure: 10
-  Initial_thickness: 6.7874
+  Initial_thickness: 7.4857
   Temperature: 150
-  dep_rate_fit: 0.13511250000000005
+  dep_rate_fit: 0.06230500000000002
   dep_rate_mean: 0.1352857142857143
-  dep_rate_direct: 0.13610399999999998
-  dep_rate_deviation: 0.002419225715229017
-  fit_diff_variation: 10.327390359011178
+  dep_rate_direct: 0.060408000000000045
+  dep_rate_deviation: 0.011
+  fit_diff_variation: 3.153646658141619
   is_prior: false
-  from_recommendation_id: 0t5d82aqt1tbb000czm72yzbbc
-  campaign_id: 0t5d7ft6jswc9000bsbx5dk6pg
-- run_id: 0t5d8crfhsvqk000dt3z9e63am
+  from_recommendation_id: 0t49e65ktxwe1000xf7hm7ppnc
+  campaign_id: 0t49dprjynzhz000esnegj1jk8
+- run_id: 0t49ed0xmxvaf000zf6x8d54dm
   ALD_prep_time: 2000
   ALD_purge_flow_rate: 5
   ALD_purge_plasma_flow_rate: 0
-  ALD_purge_time: 1907
+  ALD_purge_time: 225
   Ar_plasma_flow_rate: 0
   Ar_process_flow_rate: 50
   H2_plasma_flow_rate: 75
@@ -166,31 +166,31 @@ runs:
   N2_plasma_flow_rate: 0
   Number_of_ALD_cycles: 25
   RF_power_setpoint: 100
-  Sample_name: 250825_TDMAT_Campaign0015_01_RNG
+  Sample_name: TDMAT_Campaign0009_01_RNG
   TC_preset: 30
   ald_valves_delay: 10
   plasma_duration: 2000
-  plasma_prep_time: 2592
+  plasma_prep_time: 3519
   plasma_pressure: 60
-  plasma_purge_time: 4256
-  precursor_dose_time: 4206
-  precursor_purge_time: 1907
+  plasma_purge_time: 4445
+  precursor_dose_time: 3334
+  precursor_purge_time: 225
   process_pressure: 10
-  Initial_thickness: 10.195
+  Initial_thickness: 9.0064
   Temperature: 150
-  dep_rate_fit: 0.11826321428571426
+  dep_rate_fit: 0.11100464285714289
   dep_rate_mean: 0.11817857142857147
-  dep_rate_direct: 0.11768
-  dep_rate_deviation: 0.0027216535340088993
-  fit_diff_variation: 8.890266124582116
+  dep_rate_direct: 0.11162400000000006
+  dep_rate_deviation: 0.011
+  fit_diff_variation: 8.64244369726815
   is_prior: false
-  from_recommendation_id: 0t5d8crexsrpn00064pe2dcjs0
-  campaign_id: 0t5d7ft6jswc9000bsbx5dk6pg
-- run_id: 0t5d8n34s5wjz000nykyq8r1aw
+  from_recommendation_id: 0t49ed0wysrb3000hzb025dbq0
+  campaign_id: 0t49dprjynzhz000esnegj1jk8
+- run_id: 0t49em4gx1v1q00040qzs718p8
   ALD_prep_time: 2000
   ALD_purge_flow_rate: 5
   ALD_purge_plasma_flow_rate: 0
-  ALD_purge_time: 708
+  ALD_purge_time: 1885
   Ar_plasma_flow_rate: 0
   Ar_process_flow_rate: 50
   H2_plasma_flow_rate: 75
@@ -198,26 +198,26 @@ runs:
   N2_plasma_flow_rate: 0
   Number_of_ALD_cycles: 25
   RF_power_setpoint: 100
-  Sample_name: 250825_TDMAT_Campaign0015_01_RNG
+  Sample_name: TDMAT_Campaign0009_01_RNG
   TC_preset: 30
   ald_valves_delay: 10
   plasma_duration: 2000
-  plasma_prep_time: 2668
+  plasma_prep_time: 3029
   plasma_pressure: 60
-  plasma_purge_time: 966
-  precursor_dose_time: 5222
-  precursor_purge_time: 708
+  plasma_purge_time: 1401
+  precursor_dose_time: 5848
+  precursor_purge_time: 1885
   process_pressure: 10
-  Initial_thickness: 13.134
+  Initial_thickness: 11.841
   Temperature: 150
-  dep_rate_fit: 0.1332128571428571
+  dep_rate_fit: 0.1591664285714286
   dep_rate_mean: 0.1332642857142856
-  dep_rate_direct: 0.13251999999999994
-  dep_rate_deviation: 0.0029509337851061886
-  fit_diff_variation: 10.983284608254651
+  dep_rate_direct: 0.16108000000000003
+  dep_rate_deviation: 0.011
+  fit_diff_variation: 14.504230289667518
   is_prior: false
-  from_recommendation_id: 0t5d8n3459rex000tvbww9grd0
-  campaign_id: 0t5d7ft6jswc9000bsbx5dk6pg
+  from_recommendation_id: 0t49em4epxwef000h404n0meaw
+  campaign_id: 0t49dprjynzhz000esnegj1jk8
 - run_id: 0t5d8vm5gsx6n0003rf5ehs4e0
   ALD_prep_time: 2000
   ALD_purge_flow_rate: 5

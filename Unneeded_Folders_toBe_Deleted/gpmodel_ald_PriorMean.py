@@ -1,4 +1,4 @@
-from .gpmodel_base import GPModelBase
+from ..models.gpmodel_base import GPModelBase
 import numpy as np
 
 def piecewise_nd_asymmetric_ellipsoid(coords, center, radii, constant=10, slopes_pos=None, slopes_neg=None):
