@@ -17,16 +17,16 @@ Raw_Data_Analysis/
 │   ├── gpmodel_base.py              # Abstract GP base class
 │   └── gpmodel_constant_PriorMean.py  # Constant prior mean GP (used in paper)
 ├── campaigns/
-│   ├── BO_4D/                       # 4D active learning campaign (paper Fig. 2)
-│   │   ├── BO_4D_campaign_overview.yaml          # Full per-run metadata
+│   ├── AL_4D/                       # 4D active learning campaign (paper Fig. 2)
+│   │   ├── AL_4D_campaign_overview.yaml          # Full per-run metadata
 │   │   ├── combined_runs_df.csv                  # All runs with parameters and growth rates
 │   │   ├── combined_optimizer_df.csv             # GP optimizer recommendations per step
-│   │   ├── BO_4D_campaign_growth_and_rmse_summary_fixedCauchy.csv  # Per-run growth rate summaries
+│   │   ├── AL_4D_campaign_growth_and_rmse_summary_fixedCauchy.csv  # Per-run growth rate summaries
 │   │   ├── RMSE.json                             # RMSE vs. experiment count (100 trials)
 │   │   └── exp_info_gain.csv                     # Cumulative information gain per step
 │   ├── Random_4D/                   # 4D random sampling campaign (paper Fig. 2 baseline)
-│   │   └── ...                      # Same structure as BO_4D
-│   ├── BO_12D/                      # 12D active learning campaign (paper Fig. 3)
+│   │   └── ...                      # Same structure as AL_4D
+│   ├── AL_12D/                      # 12D active learning campaign (paper Fig. 3)
 │   │   └── ...
 │   └── Random_12D/                  # 12D random sampling campaign (paper Fig. 3 baseline)
 │       └── ...
@@ -45,9 +45,9 @@ Four PE-ALD TiO₂ campaigns are included, corresponding to the two experimental
 
 | Folder | Dimensionality | Experiments | Role in paper |
 |---|---|---|---|
-| `BO_4D` | 4D subspace | 100 (5 random init + 95 GP) | Fig. 2 — active learning campaign |
+| `AL_4D` | 4D subspace | 100 (5 random init + 95 GP) | Fig. 2 — active learning campaign |
 | `Random_4D` | 4D subspace | 100 (5 shared init + 95 random) | Fig. 2 — random sampling baseline |
-| `BO_12D` | 12D full space | 200 (15 random init + 185 GP) | Fig. 3 — active learning campaign |
+| `AL_12D` | 12D full space | 200 (15 random init + 185 GP) | Fig. 3 — active learning campaign |
 | `Random_12D` | 12D full space | 200 (15 shared init + 185 random) | Fig. 3 — random sampling baseline |
 
 The 4D and 12D active learning / random sampling pairs share the same initialization experiments to ensure a fair comparison.
