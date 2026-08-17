@@ -95,6 +95,7 @@ Each campaign folder contains a YAML file with the full campaign metadata and on
 | `plasma_prep_time` | O₂ plasma preparation time (ms) |
 | `plasma_duration` | Plasma exposure time (ms) |
 | `plasma_purge_time` | Post-plasma purge time (ms) |
+| `H2_plasma_flow_rate` | Gas flow through plasma source (sccm) - In this study, O₂ was used instead of H₂ |
 | `ALD_purge_time` | Post-precursor purge time (ms) |
 | `process_pressure` | Chamber pressure during precursor half-cycle (mTorr) |
 | `plasma_pressure` | Chamber pressure during plasma half-cycle (mTorr) |
